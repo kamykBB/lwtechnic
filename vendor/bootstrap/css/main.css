@@ -1,0 +1,137 @@
+/* ================================
+COLORS AND FONTS
+================================= */
+:root {
+  --lwblue: rgb(42, 165, 209);
+  --lwgreen: rgb(65, 160, 134);
+  --lwblack: rgb(24,24,24);
+  --lwgray: rgb(96, 96, 96);
+}
+
+.bg-lwblue {
+  background-color: var(--lwblue);
+}
+
+.bg-lwblack {
+  background-color: var(--lwblack);
+}
+
+a.bg-lwblue:focus, a.bg-lwblue:hover, button.bg-lwblue:focus, button.bg-lwblue:hover {
+  background-color: #1d2124 !important
+}
+
+.text-lwblue {
+  font-weight: normal;
+  color: var(--lwblue);
+}
+
+.text-lwgreen {
+  font-weight: normal;
+  color: var(--lwgreen);
+}
+
+.text-std {
+  font-weight: normal;
+  color: var(--lwgray);
+  line-height: 1.7em
+}
+
+.shadow-lwblue {
+  box-shadow: 0.5rem 1rem 1.5rem rgba(42, 165, 209, .15) !important
+}
+
+.card-text {
+  line-height: 3rem;
+  white-space: pre-line;
+  margin-bottom: 0;
+}
+
+
+/* ================================
+SECTIONS
+================================= */
+
+.text-section {
+  padding-top: 7rem;
+  padding-bottom: 7rem;
+  text-align: center;
+}
+
+.showcase .showcase-text {
+  padding: 3rem;
+}
+
+.showcase .showcase-img {
+  min-height: 30rem;
+  background-size: cover;
+}
+
+@media (min-width: 768px) {
+  .showcase .showcase-text {
+    padding: 7rem;
+  }
+}
+
+/* ================================
+ELEMENTS
+================================= */
+body, html {
+  font-family: "Lato", arial, sans-serif;
+  -webkit-overflow-scrolling: touch;
+  overflow-x: hidden;
+}
+
+.obraz1 {
+  width: 100%;
+  height: auto;
+}
+
+.obraz2 {
+  width: 50%;
+  height: 681px;
+  float: left;
+}
+
+.tlo_kontakt {
+  position: relative;
+  width: 50%;
+  height: 781px;
+  background-color: white;
+  float: left;
+  line-height: 25px;
+}
+
+.obraz3 {
+  width: 50%;
+  float: right;
+  height: 781px;
+}
+
+.check {
+  width: 7%;
+  height: 9%;
+  margin-left: 15%;
+  margin-top: -3%;
+}
+
+#home {
+  background: linear-gradient(to bottom, rgba(42, 165, 209, .5) 0, rgba(65, 160, 134, .5) 130%), url("/img/obraz1.jpeg");
+  background-attachment: fixed;
+  height: 100vh;
+  position: relative;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#sticky-footer {
+  flex-shrink: none;
+}
+
+#team-contacts {
+  background: url("/img/tlo-sylwetki-hala.jpg");
+  position: relative;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}

@@ -33,7 +33,7 @@ a.bg-lwblue:focus, a.bg-lwblue:hover, button.bg-lwblue:focus, button.bg-lwblue:h
 .text-std {
   font-weight: normal;
   color: var(--lwgray);
-  line-height: 1.7em
+  line-height: 2.1rem
 }
 
 .shadow-lwblue {
@@ -52,8 +52,8 @@ SECTIONS
 ================================= */
 
 .text-section {
-  padding-top: 3.5rem;
-  padding-bottom: 3.5rem;
+  padding-top: 2.7rem;
+  padding-bottom: 2.7rem;
   text-align: center;
 }
 

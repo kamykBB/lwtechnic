@@ -4,8 +4,8 @@ COLORS AND FONTS
 :root {
   --lwblue: rgb(42, 165, 209);
   --lwgreen: rgb(65, 160, 134);
-  --lwblack: rgb(24,24,24);
-  --lwgray: rgb(96, 96, 96);
+  --lwblack: rgb(35, 35, 35);
+  --lwgray: rgb(35, 35, 35);
 }
 
 .bg-lwblue {
@@ -52,8 +52,8 @@ SECTIONS
 ================================= */
 
 .text-section {
-  padding-top: 7rem;
-  padding-bottom: 7rem;
+  padding-top: 3.5rem;
+  padding-bottom: 3.5rem;
   text-align: center;
 }
 
